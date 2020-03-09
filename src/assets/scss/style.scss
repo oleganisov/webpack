@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    height: 100%;
+    margin: initial;
+}
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+#container {
+    background-color: green;
+}
