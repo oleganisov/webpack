@@ -7,7 +7,7 @@
   "scripts": {
     "codestyle": "eslint src",
     "build": "env NODE_ENV=production webpack --progress --colors --config webpack.prod.js",
-    "start": "webpack-dev-server --progress --colors --open --config webpack.dev.js"
+    "start": "env NODE_ENV=development webpack-dev-server --progress --colors --open --config webpack.dev.js"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
